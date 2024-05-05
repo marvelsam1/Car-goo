@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.input{
+  border-left: 1px solid #cdcdcd;
+}
+
+#pickup::-webkit-input-placeholder, #return::-webkit-input-placeholder{
+  font-size: 12px;
+}
+
+select{
+  border:none;
+}
+
+select:focus{
+  outline:none;
+}
+
+.car-card{
+  border: 1px solid rgb(209, 209, 209);
+}
+
+.price-tag{
+  border-top: 1px solid rgb(209, 209, 209);
+}
+
+.seeAll{
+  border: 1px solid  rgb(209, 209, 209);
+}
+
+.sign-up-email, .sign-up-password{
+  border-bottom:  1px solid rgb(209, 209, 209);
+}
